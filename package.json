@@ -6,18 +6,18 @@
   "license": "none",
   "private": true,
   "scripts": {
-    "lint:js": "eslint --ignore-path ./.gitignore \"**/*.js\" && prettier --check --ignore-path ./.gitignore \"**/*.js\"",
-    "lint:md": "prettier --check --ignore-path ./.gitignore \"**/*.md\"",
-    "lint:json": "prettier --check --ignore-path ./.gitignore \"**/*.json\"",
+    "lint:js": "eslint --ignore-path .gitignore \"**/*.js\" && prettier --check --ignore-path .gitignore \"**/*.js\"",
+    "lint:md": "prettier --check --ignore-path .gitignore \"**/*.md\"",
+    "lint:json": "prettier --check --ignore-path .gitignore \"**/*.json\"",
     "lint": "npm-run-all lint:* -s",
-    "format:js": "prettier --write --ignore-path ./.gitignore \"**/*.js\"",
-    "format:md": "prettier --write --ignore-path ./.gitignore \"**/*.md\"",
-    "format:json": "prettier --write --ignore-path ./.gitignore \"**/*.json\"",
+    "format:js": "prettier --write --ignore-path .gitignore \"**/*.js\"",
+    "format:md": "prettier --write --ignore-path .gitignore \"**/*.md\"",
+    "format:json": "prettier --write --ignore-path .gitignore \"**/*.json\"",
     "format": "npm-run-all format:* -s"
   },
   "devDependencies": {
-    "eslint": "5.16.0",
-    "eslint-config-prettier": "4.3.0",
+    "eslint": "6.0.1",
+    "eslint-config-prettier": "6.0.0",
     "npm-run-all": "4.1.5",
     "prettier": "1.18.2"
   }
