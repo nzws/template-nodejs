@@ -18,6 +18,18 @@
     esutils "^2.0.2"
     js-tokens "^4.0.0"
 
+"@yuzulabo/eslint-config@^1.0.1":
+  version "1.0.1"
+  resolved "https://registry.yarnpkg.com/@yuzulabo/eslint-config/-/eslint-config-1.0.1.tgz#6787d14e34341e91ce33f9d142f5f1646d367647"
+  integrity sha512-E+qS6sxf8bi8ergAsY+5aqf8QxoRiWXjxXZsZNW6/F63CpwNvmpiiAuSRm2VnhV2V/j+J2kuHr42jNCFJ9be2w==
+  dependencies:
+    eslint-config-prettier "^6.0.0"
+
+"@yuzulabo/prettier-config@^1.0.1":
+  version "1.0.1"
+  resolved "https://registry.yarnpkg.com/@yuzulabo/prettier-config/-/prettier-config-1.0.1.tgz#1d126284930b337f5ad500f1240ee2af62b0f794"
+  integrity sha512-H03uIPNtCS3RA81u0zs69kP8MWCfk95q5IAVlT6jVMEZv3yy3f6zpwS6duCip4KkyBrd7lQ/TzXmRTURgnQFFg==
+
 acorn-jsx@^5.0.0:
   version "5.0.1"
   resolved "https://registry.yarnpkg.com/acorn-jsx/-/acorn-jsx-5.0.1.tgz#32a064fd925429216a09b141102bfdd185fae40e"
@@ -223,7 +235,7 @@ escape-string-regexp@^1.0.5:
   resolved "https://registry.yarnpkg.com/escape-string-regexp/-/escape-string-regexp-1.0.5.tgz#1b61c0562190a8dff6ae3bb2cf0200ca130b86d4"
   integrity sha1-G2HAViGQqN/2rjuyzwIAyhMLhtQ=
 
-eslint-config-prettier@6.0.0:
+eslint-config-prettier@6.0.0, eslint-config-prettier@^6.0.0:
   version "6.0.0"
   resolved "https://registry.yarnpkg.com/eslint-config-prettier/-/eslint-config-prettier-6.0.0.tgz#f429a53bde9fc7660e6353910fd996d6284d3c25"
   integrity sha512-vDrcCFE3+2ixNT5H83g28bO/uYAwibJxerXPj+E7op4qzBCsAV36QfvdAyVOoNxKAH2Os/e01T/2x++V0LPukA==
